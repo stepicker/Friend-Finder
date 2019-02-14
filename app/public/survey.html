@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Friend Finder - Survey</title>
+
+  <!-- Linking jQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+  
+      <h2>Survey Questions</h2>
+      <hr>
+  
+      <h4>About You:</h4>
+      <br>
+      <h5>Name (Required)</h5>
+      <input type="text" id="name" class="form-control" required>
+  
+      <h5>Link to Photo Image (Required)</h5>
+      <input type="text" id="photo" class="form-control" required>
+  
+      <hr>
+  
+      <h5><strong>Question 1</strong></h5>
+      <h5>Your mind is always buzzing with unexplored ideas and plans.</h5>
+      <select class="chosen-select" id="q1">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+      <br><br>
+      <h5><strong>Question 2</strong></h5>
+      <h5>Generally speaking, you rely more on your experience than your imagination.</h5>
+      <select class="chosen-select" id="q2">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+      <br><br>
+      <h5><strong>Question 3</strong></h5>
+      <h5>You find it easy to stay relaxed and focused even when there is some pressure.</h5>
+      <select class="chosen-select" id="q3">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+      <br><br>
+      <h5><strong>Question 4</strong></h5>
+      <h5>You rarely do something just out of sheer curiosity.</h5>
+      <select class="chosen-select" id="q4">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+      <br><br>
+      <h5><strong>Question 5</strong></h5>
+      <h5>People can rarely upset you.</h5>
+      <select class="chosen-select" id="q5">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+      <br><br>
+      <h5><strong>Question 6</strong></h5>
+      <h5>It is often difficult for you to relate to other people’s feelings.</h5>
+      <select class="chosen-select" id="q6">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+      <br><br>
+      <h5><strong>Question 7</strong></h5>
+      <h5>In a discussion, truth should be more important than people’s sensitivities.</h5>
+      <select class="chosen-select" id="q7">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+      <br><br>
+      <h5><strong>Question 8</strong></h5>
+      <h5>You rarely get carried away by fantasies and ideas.</h5>
+      <select class="chosen-select" id="q8">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+      <br><br>
+      <h5><strong>Question 9</strong></h5>
+      <h5>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h5>
+      <select class="chosen-select" id="q9">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+      <br><br>
+      <h5><strong>Question 10</strong></h5>
+      <h5>You feel more energetic after spending time with a group of people.</h5>
+      <select class="chosen-select" id="q10">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+  
+      <br>
+      <br>
+  
+      <!-- Submit Button -->
+      <button type="submit" class="btn btn-primary btn-lg" id="submit">Submit</button>
+  
+      <hr>
+      <footer class="footer">
+        <div class="container">
+          <p><a href="/api/friends">API</a> | <a href="https://github.com/stepicker/Friend-Finder">GitHub</a></p>
+        </div>
+      </footer>
+  
+    </div>
+
+    <div id="modal"></div>
+
+    <div id="background"></div>
+
+<style>
+    #background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        opacity: 0.9;
+        z-index: 99;
+    }
+    #modal {
+        position: fixed;
+        width: 640px;
+        height: 480px;
+        top: 50%;
+        left: 50%;
+        margin-top: -240px;
+        margin-left: -320px;
+        color: white;
+        text-align: center;
+        z-index: 100;
+    }
+    #match-photo {
+        max-width: 640px;
+        max-height: 300px;
+    }
+</style>
+  
+<script type="text/javascript">
+
+// Hide the modal
+$("#background").hide();
+$("#modal").hide();
+
+// Capture the input
+$("#submit").on("click", function(event) {
+    event.preventDefault();
+
+    // Organize the input 
+    var inputData = {
+    name: $("#name").val(),
+    photo: $("#photo").val(),
+    scores: [
+        $("#q1").val(),
+        $("#q2").val(),
+        $("#q3").val(),
+        $("#q4").val(),
+        $("#q5").val(),
+        $("#q6").val(),
+        $("#q7").val(),
+        $("#q8").val(),
+        $("#q9").val(),
+        $("#q10").val()
+    ]
+    };
+
+    // Check if all questions have been answered
+    var allQuestionsAnswered = true;
+    for (var i = 0; i < inputData.scores.length; i++) {
+        if (inputData.scores[i] === "") {
+            allQuestionsAnswered = false;
+        }
+    }
+
+    // Validate the form
+    if (inputData.name === "") {
+        alert("Please insert your name!");
+    }
+    else if (inputData.photo === "") {
+        alert("Please don't forget the link to your photo!");
+    }
+    else if (allQuestionsAnswered === false) {
+        alert("Please answer all 10 questions!");
+    }
+    else {
+        // Post the data to the friends API
+        $.post("/api/friends", inputData, function(data) {
+            
+        console.log(data);
+
+        $("#background").show();
+        $("#modal").show();
+
+        $("#modal").html("<h4>Here's your best match!</h4><h3>" + data.name + "</h3><img id='match-photo' src='" + data.photo + "'><hr><button id='close-button' class='btn btn-primary btn-lg'>OK!</button>");
+
+        });
+    }
+
+});
+
+$(document).on("click", "#close-button", function () {
+    $("#background").hide();
+    $("#modal").hide();
+});
+
+</script>
+  
+  </body>
+  
+  </html>
