@@ -35,8 +35,8 @@ var friendsArray = [
       name:"Indiana Jones",
       photo:"https://ewedit.files.wordpress.com/2016/02/indiana-jones-and-the-last-crusade.jpg",
       scores:[
-          1,
-          2,
+          4,
+          4,
           5,
           5,
           5,
