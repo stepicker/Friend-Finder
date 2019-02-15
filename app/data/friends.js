@@ -1,6 +1,6 @@
 var friendsArray = [
     {
-      name:"Quincy Iheme",
+      name:"Quincy",
       photo:"https://d1qb2nb5cznatu.cloudfront.net/users/546966-large?1495316083",
       scores:[
           3,
