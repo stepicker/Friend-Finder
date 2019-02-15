@@ -14,7 +14,7 @@ First Node.js project deployed to Heroku at the Penn Coding Bootcamp.
 
 ## Under the hood
 
-The best match is the person with the lowest difference between your answers and theirs:
+The best match is the person with the lowest difference between your answers and theirs, calculated in [this file](https://github.com/stepicker/Friend-Finder/blob/master/app/routing/apiRoutes.js) through the following steps:
 
 > + First, the app calculates the absolute value of the difference - question by question - between your answers and those by each existing user
 > + Then, those 10 absolute values are added together for each user, thus returning a score that defines the compatibility between yourself and each of them
